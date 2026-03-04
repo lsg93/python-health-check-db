@@ -9,3 +9,6 @@ dependencies = [
     "fastapi>=0.135.1",
     "sqlalchemy>=2.0.48",
 ]
+
+[tool.setuptools.packages.find]
+where = ["."]
